@@ -1,0 +1,206 @@
+*
+{
+	font-family: Arial, Helvetica,  sans-serif;
+}
+
+.footer
+{
+	background: url(../images/footer_back.gif) repeat-x;
+	height: 50px;
+	vertical-align: bottom;
+	text-align: center;
+	padding: 0px 0px 5px 0px;
+	font-size: 12px;
+}
+
+.tr_header
+{
+	background: #B284CA;
+	font-size: 12px;
+}
+
+.grey_background
+{
+	background: #C7C7CF;
+	font-size: 12px;
+}
+
+.light_grey_background
+{
+	background: #E2E2E7;
+	font-size: 12px;
+}
+
+/*security message*/
+.success_message
+{
+	font-size: 12px;
+	color: blue;
+	margin: 3px 0px 0px 10px;
+}
+
+.error_message
+{
+	font-size: 12px;
+	color: red;
+	margin: 3px 0px 0px 10px;
+}
+
+/*form style*/
+.form_label
+{
+	font-size: 12px;
+	margin: 0px 3px 0px 0px;
+}
+
+.form_edit
+{
+	font-size: 12px;	
+}
+
+.form_button
+{
+	font-size: 16px;		
+	height: 30px;
+	background: url(../images/menu_back.gif) repeat-x;
+	border: solid 1px #468BC0;
+	margin: 3px 0px 3px 0px;
+}
+
+.form_login_button
+{
+	font-size: 12px;		
+	height: 20px;
+	background: url(../images/menu_back.gif) repeat-x;
+	border: solid 1px #468BC0;
+	margin: 3px 0px 3px 0px;
+}
+
+/*styles for main page*/
+.page
+{
+	width: 780px;
+}
+
+.page_header
+{
+	height: 100px;
+	background: url(../images/header_back.gif) repeat-x;
+}
+
+.page_menu
+{
+	background: url(../images/menu_back.gif) repeat-x;
+}
+
+.page_content
+{
+	height: 640px;
+	font-size: 12px;
+}
+
+.page_footer
+{
+	height: 50px;
+}
+
+.page_header, .page_content, .page_footer, .forums_list
+{
+	text-align: left;
+	vertical-align: top;
+}
+
+.clear_line
+{
+	width: 100%;
+  height: 5px;
+	background: url(../images/clear_line.gif) repeat-x;
+}
+
+/*style for main menu*/
+#main_menu
+{
+	list-style: none;
+	padding: 0px;
+	margin: 0px 0px 0px 0px;
+	/*width: 600px;*/
+	height: 20px;
+}
+
+#main_menu li
+{
+	float: left;
+}
+
+#main_menu li a
+{
+	display: block;
+	color: black;
+	height: 20px;
+	float: left;
+	padding: 5px 10px 5px 10px;
+	text-align: center;
+	/*text-transform: uppercase;*/
+	text-decoration: none;
+	font-size: 12px;
+}
+
+#main_menu li a:hover,
+#main_menu li.active_menu a
+{
+	background: url(../images/menu_active.gif) repeat-x;
+	color: black;
+	outline: none;
+}
+
+#main_menu li a:visited
+{
+	color: black;
+}
+
+/*styles for bordered table*/
+.border_up_left
+{
+	background: url(../images/border_up_left.gif) no-repeat;
+}
+
+.border_up_right
+{
+	background: url(../images/border_up_right.gif) no-repeat;
+}
+
+.border_down_left
+{
+	background: url(../images/border_down_left.gif) no-repeat;
+}
+
+.border_down_right
+{
+	background: url(../images/border_down_right.gif) no-repeat;
+}
+
+.border_up
+{
+	background: url(../images/border_up.gif) repeat-x;
+}
+
+.border_down
+{
+	background: url(../images/border_down.gif) repeat-x;
+}
+
+.border_left
+{
+	background: url(../images/border_left.gif) repeat-y;
+}
+
+.border_right
+{
+	background: url(../images/border_right.gif) repeat-y;
+}
+
+.border_up_left, .border_up_right, .border_down_left, .border_down_right, .border_up, .border_down, .border_left, .border_right
+{
+	width: 10px;
+	height: 10px;
+}

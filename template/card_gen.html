@@ -1,0 +1,9 @@
+<form action="logic/card_gen.php" method="POST">
+  <label class="form_label">Серія картки:<input type="text" name="gen_series" size="10" class="form_edit"></label><br>
+  <label class="form_label">Кількість карток:<input type="text" name="gen_count" size="20" class="form_edit"></label><br>
+  <label class="form_label">Термін активності:</label><br>
+  <input type="radio" name="gen_date" value="1" checked="checked">1 місяць<br>
+  <input type="radio" name="gen_date" value="6">6 місяців<br>
+  <input type="radio" name="gen_date" value="12">1 рік<br>
+  <input type="submit" name="gen_button" value="Розпочати генерування" class="form_button">
+</form>
